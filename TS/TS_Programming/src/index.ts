@@ -1,7 +1,6 @@
-let a = 2;
-let b = 3;
-let c = {
-  numb: a + b,
+type obj = {
+  num1: number;
+  num2: number;
 };
 
-console.log(c);
+function func(num1: number, num2: number = 1) {}
